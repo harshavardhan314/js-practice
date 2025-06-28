@@ -7,7 +7,7 @@ document.getElementById("h1").textContent="hello";
 
  a=10;
  b=20;
-
+ ans=0;
  ans=a+b;
 window.alert( `sum= ${ans} ` );
 
