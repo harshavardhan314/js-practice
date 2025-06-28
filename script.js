@@ -1,3 +1,10 @@
-document.getElementById("p1").innerHTML="";
-document.getElementById("h1").textContent="hello";
+
+//comments
+//displaying output
+
 window.alert("hi");
+
+console.log("harsha");
+
+document.getElementById("h1").textContent="hello";
+
