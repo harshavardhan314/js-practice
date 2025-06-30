@@ -1,0 +1,48 @@
+#container
+{
+   
+    text-align: center;
+}
+#count
+{
+    display: block;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10em;
+
+}
+#increase
+{
+    height: 40px;
+    background-color: rgb(137, 137, 255);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#decrease
+{
+     height: 40px;
+    background-color: rgb(137, 137, 255);
+    color: white;
+     cursor: pointer;
+ border-radius: 3px;
+}
+#reset
+{
+     height: 40px;
+    background-color: rgb(137, 137, 255);
+    color: white;
+     cursor: pointer; 
+     border-radius: 3px;
+
+}
+#increase:hover{
+    background-color: blue;
+}
+#decrease:hover{
+    background-color: blue;
+}
+#reset:hover{
+    background-color: blue;
+}
