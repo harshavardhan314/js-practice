@@ -1,1 +1,50 @@
 
+.main
+{
+    justify-content: center;
+    display: flex ;
+    align-items: center;
+   
+    gap: 10px;
+}
+.increase button
+{
+    color: white;
+    background-color:  rgb(109, 109, 243);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.reset button
+{
+    color: white;
+    background-color: rgb(109, 109, 243);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.decrease button{
+    color: white;
+    background-color: rgb(109, 109, 243);
+    cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.decrease button:hover{
+    background-color:rgb(62, 62, 231);;
+}
+.increase button:hover{
+    background-color:rgb(62, 62, 231);;
+}
+.reset button:hover{
+    background-color:rgb(62, 62, 231);;
+}
