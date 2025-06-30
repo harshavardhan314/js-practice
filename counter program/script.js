@@ -17,3 +17,4 @@ document.getElementById("reset").onclick=function()
     val=0;
     document.getElementById("count").textContent=val;
 }
+
