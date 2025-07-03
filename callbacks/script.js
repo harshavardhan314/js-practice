@@ -1,8 +1,12 @@
-let arr=[7,2,3,4,5];
-const val=(arr.reduce(display));
-console.log(val);
-function display(prev,curr)
+const is_prime=(num)=>
 {
-    return Math.min(prev,curr);
-
+    if(num==1)
+        return false;
+    for(let i=2;i<=Math.sqrt(num);i++)
+    {
+        if(num%i==0)
+        return false;
+    }
+    return true;
 }
+console.log(is_prime(5))
