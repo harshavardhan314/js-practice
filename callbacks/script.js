@@ -1,12 +1,5 @@
-const is_prime=(num)=>
+const hello=()=>
 {
-    if(num==1)
-        return false;
-    for(let i=2;i<=Math.sqrt(num);i++)
-    {
-        if(num%i==0)
-        return false;
-    }
-    return true;
+    console.log("hello");
 }
-console.log(is_prime(5))
+hello();
